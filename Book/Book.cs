@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Book
 {
     [Serializable]
-    public class Book
+    public struct Book
     {
         public int bookid { get; set; }
         public string title { get; set; }
